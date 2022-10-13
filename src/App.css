@@ -1,0 +1,471 @@
+* {
+  font-family: "Inter";
+  background: #200050 no-repeat;
+  background-image: url(images/Image.png);
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.nameTeam {
+  color: #bbdd00;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 59px;
+}
+.footer {
+  display: flex;
+  margin-left: 15%;
+  border: 1px solid #301070;
+  width: 65.7em;
+  color: white;
+  margin-bottom: 1%;
+}
+.item {
+  color: #ffffff;
+  height: 90px;
+}
+.item-3 {
+  color: white;
+}
+
+.item-3:first-child {
+  padding-left: 20px;
+}
+
+.item:first-child {
+  padding-left: 5%;
+}
+
+img {
+  width: 50px;
+  height: 40px;
+}
+.link {
+  text-decoration: none;
+  color: #bbdd00;
+}
+.item-list {
+  background: rgba(16, 0, 37, 0.15);
+  width: auto;
+}
+.item-list:hover {
+  opacity: 0.75;
+}
+
+.foot-container {
+  background-color: #301070;
+  display: flex;
+  size: 16px;
+  margin-top: 2%;
+}
+.foot-3 {
+  color: white;
+  margin-left: 50%;
+}
+.foot {
+  color: white;
+  margin-left: 2%;
+}
+
+.table {
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px, 0px, 20px, 0px;
+  margin: auto;
+  border: 1px solid #301070;
+}
+
+/* .pagination {
+  display: flex;
+  list-style-type: none;
+}
+
+.numberPage {
+  border: 1px solid black;
+  margin-left: 5px;
+  text-decoration: none;
+} */
+
+/* .currentPage {
+  text-decoration: none;
+}
+
+.currentPage:active {
+  background-color: aqua;
+}
+
+.numberPage:active {
+  background-color: aqua;
+} */
+/* .buttons {
+  display: flex;
+  margin-left: 600px;
+}
+.btn {
+  background-color: #301070;
+  color: #ffffff;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+} */
+
+/* .btn:hover,
+.btn:active {
+  opacity: 0.7;
+} */
+
+.hat {
+  background-color: #301070;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.hat-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.hat-item:first-child {
+  padding-left: 20px;
+}
+
+.header {
+  font-style: normal;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  background: linear-gradient(268.55deg, #ebc1ff 0%, #e0d8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 8px 16px rgba(16, 0, 37, 0.15);
+  margin-left: 15%;
+}
+
+h1 {
+  display: flex;
+  color: white;
+  margin-left: 10px;
+}
+
+.imageDota {
+  width: 30px;
+  height: 30px;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  margin-left: 1%;
+}
+
+.image-hero {
+  width: 40px;
+  height: 30px;
+}
+
+.item-id {
+  color: #bbdd00;
+  height: 90px;
+  padding-left: 20px;
+}
+
+.button {
+  margin-left: 45%;
+  margin-top: 3%;
+  width: 10%;
+  padding: 16px, 20px;
+  background-color: white;
+  border-radius: 4px;
+  height: 50px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.link-team {
+  text-decoration: none;
+  color: white;
+}
+
+.link-team-name {
+  text-decoration: none;
+  color: #bbdd00;
+  display: flex;
+}
+
+.title-game {
+  color: white;
+  margin-left: 45%;
+  background: none;
+}
+
+.radiant {
+  width: 20px;
+  height: 20px;
+  background: none;
+  margin-right: 5%;
+}
+
+.radiant-title {
+  color: #fa7000;
+  background: white;
+  width: 10%;
+  height: 5%;
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin-left: 20%;
+  margin-top: 4%;
+}
+
+.number {
+  margin-top: -100px;
+  margin-left: 35%;
+  background: none;
+  color: #bbdd00;
+  font-size: 64px;
+}
+
+.time-duration {
+  margin-top: -60px;
+  margin-left: 43%;
+  font-size: 32px;
+  color: white;
+  background: none;
+}
+
+.number-dire {
+  margin-left: 55%;
+  margin-top: -85px;
+  background: none;
+  color: #fa7000;
+  font-size: 64px;
+}
+
+.time-match {
+  margin-left: 40%;
+  background: none;
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+.id-match {
+  margin-left: 65%;
+  margin-top: -40px;
+  color: white;
+  background: none;
+}
+
+.id {
+  background: none;
+  margin-top: -1px;
+}
+
+.region {
+  margin-left: 75%;
+  margin-top: -55px;
+  background: none;
+  color: white;
+}
+
+.spell {
+  margin-left: 85%;
+  margin-top: -55px;
+  background: none;
+  color: white;
+}
+
+.spell-id {
+  background: none;
+  margin-top: -1px;
+}
+
+.icons {
+  width: 18px;
+  height: 18px;
+  background: none;
+  margin-right: 10px;
+}
+
+.static {
+  color: #eecd00;
+  margin-left: 25%;
+  background: none;
+}
+
+.details {
+  margin-left: 40%;
+  background: none;
+  display: flex;
+}
+
+.detail {
+  color: white;
+  width: 100px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.detail-1 {
+  color: #ffffff;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 1%;
+}
+
+.detail:hover,
+.detail-1:hover {
+  opacity: 0.9;
+}
+
+.table-details {
+  display: flex;
+  border-top-left-radius: 10px;
+}
+
+.side {
+  margin-left: 5%;
+  background: none;
+}
+
+.static-match {
+  margin-left: 5%;
+  background: none;
+}
+
+.lose {
+  margin-left: 5%;
+  background: none;
+  border-radius: 10px;
+  background-color: rgba(250, 112, 0, 0.25);
+  color: #fa7000;
+  padding: 5px;
+}
+
+.item-D {
+  color: #fa7000;
+}
+.item-K {
+  color: #bbdd00;
+}
+
+.item-NET {
+  color: #eecd00;
+}
+.row-title {
+  background-color: #301070;
+  height: 40px;
+}
+.player {
+  color: white;
+}
+.name-player {
+  display: flex;
+  margin-left: 7%;
+}
+.item-number {
+  margin-left: 3%;
+}
+
+.name-players {
+  margin-top: -20px;
+  margin-left: 4%;
+}
+.players {
+  color: #bbdd00;
+  margin-top: 40px;
+}
+.unknow {
+  margin-top: -18px;
+}
+.image-hero-1 {
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.item-hero {
+  background-color: #100025;
+  height: 20px;
+  width: 30px;
+  margin-left: 5px;
+}
+.items-hero {
+  display: flex;
+}
+
+.image-case {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.case-item {
+  display: flex;
+  background: none;
+}
+
+.item-hero-case {
+  background-color: #100025;
+  height: 20px;
+  width: 30px;
+  margin-left: 5px;
+  margin-top: -1px;
+}
+
+.item-hero-case-sphere {
+  width: 22px;
+  height: 22px;
+  background-color: #100025;
+  border-radius: 22px;
+}
+
+.shard {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.shard-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.shard-bot {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.buffs {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.win {
+  margin-left: 5%;
+  background: none;
+  border-radius: 10px;
+  background-color: rgba(187, 221, 0, 0.25);
+  color: #bbdd00;
+  padding: 5px;
+}
+
+.table-margin {
+  margin-top: 5%;
+}
